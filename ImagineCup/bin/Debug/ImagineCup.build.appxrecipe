@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ADMIN</Machine>
+    <WindowsUser>Liuzd</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>89ed1b52-2f47-43a1-b916-45aaf6bb3a50</PackageIdentityName>
+    <IntermediateOutputPath>F:\C#\ImagineCup\ImagineCup\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="F:\C#\ImagineCup\ImagineCup\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\bin\Debug\ImagineCup.exe">
+      <PackagePath>ImagineCup.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\Images\background.png">
+      <PackagePath>Images\background.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\Images\mainback.png">
+      <PackagePath>Images\mainback.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\Images\mainback2.png">
+      <PackagePath>Images\mainback2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\Images\play.png">
+      <PackagePath>Images\play.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\Images\play1.png">
+      <PackagePath>Images\play1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\Images\play11.png">
+      <PackagePath>Images\play11.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\Images\play2.png">
+      <PackagePath>Images\play2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\Images\play3.png">
+      <PackagePath>Images\play3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\Images\play4.png">
+      <PackagePath>Images\play4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\Images\reset.png">
+      <PackagePath>Images\reset.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\Images\stop.png">
+      <PackagePath>Images\stop.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\Images\stop1.png">
+      <PackagePath>Images\stop1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\Images\stop2.png">
+      <PackagePath>Images\stop2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\Images\stop3.png">
+      <PackagePath>Images\stop3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\Images\stop4.png">
+      <PackagePath>Images\stop4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\Images\wenjian1.png">
+      <PackagePath>Images\wenjian1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\Images\wenjian11.png">
+      <PackagePath>Images\wenjian11.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\Images\wenjian2.png">
+      <PackagePath>Images\wenjian2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\Images\wenjian3.png">
+      <PackagePath>Images\wenjian3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\Images\wenjian4.png">
+      <PackagePath>Images\wenjian4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\test.mp3">
+      <PackagePath>test.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\bin\Debug\ImagineCup.xr.xml">
+      <PackagePath>ImagineCup.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ADMIN</Machine>
+    <WindowsUser>Liuzd</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>89ed1b52-2f47-43a1-b916-45aaf6bb3a50</PackageIdentityName>
+    <IntermediateOutputPath>F:\C#\ImagineCup\ImagineCup\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>239F46875982032D67EF9908D9866CE71FC05CD16F6195C5114EB90F96A5E238</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>89ed1b52-2f47-43a1-b916-45aaf6bb3a50_1.0.0.0_neutral__360j5xzg0m8ee</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>89ed1b52-2f47-43a1-b916-45aaf6bb3a50_360j5xzg0m8ee!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>89ed1b52-2f47-43a1-b916-45aaf6bb3a50</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Liuzd</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="F:\C#\ImagineCup\ImagineCup\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-21T08:49:09.413</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\bin\Debug\ImagineCup.exe">
+      <PackagePath>ImagineCup.exe</PackagePath>
+      <Modified>2014-11-21T08:50:07.334</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-09-24T16:00:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-09-24T16:00:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-09-24T16:00:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-09-24T16:00:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\Images\background.png">
+      <PackagePath>Images\background.png</PackagePath>
+      <Modified>2014-11-17T08:47:01.440</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\Images\mainback.png">
+      <PackagePath>Images\mainback.png</PackagePath>
+      <Modified>2014-11-21T06:31:37.609</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\Images\mainback2.png">
+      <PackagePath>Images\mainback2.png</PackagePath>
+      <Modified>2014-11-21T06:49:39.940</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\Images\play.png">
+      <PackagePath>Images\play.png</PackagePath>
+      <Modified>2014-11-21T06:31:37.579</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\Images\play1.png">
+      <PackagePath>Images\play1.png</PackagePath>
+      <Modified>2014-11-17T11:47:43.484</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\Images\play11.png">
+      <PackagePath>Images\play11.png</PackagePath>
+      <Modified>2014-11-18T10:32:24.252</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\Images\play2.png">
+      <PackagePath>Images\play2.png</PackagePath>
+      <Modified>2014-11-17T11:47:43.492</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\Images\play3.png">
+      <PackagePath>Images\play3.png</PackagePath>
+      <Modified>2014-11-17T11:47:43.517</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\Images\play4.png">
+      <PackagePath>Images\play4.png</PackagePath>
+      <Modified>2014-11-17T11:47:43.525</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\Images\reset.png">
+      <PackagePath>Images\reset.png</PackagePath>
+      <Modified>2014-11-21T06:31:37.601</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\Images\stop.png">
+      <PackagePath>Images\stop.png</PackagePath>
+      <Modified>2014-11-21T06:31:37.576</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\Images\stop1.png">
+      <PackagePath>Images\stop1.png</PackagePath>
+      <Modified>2014-11-17T13:58:52.927</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\Images\stop2.png">
+      <PackagePath>Images\stop2.png</PackagePath>
+      <Modified>2014-11-17T13:58:52.935</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\Images\stop3.png">
+      <PackagePath>Images\stop3.png</PackagePath>
+      <Modified>2014-11-17T13:58:52.959</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\Images\stop4.png">
+      <PackagePath>Images\stop4.png</PackagePath>
+      <Modified>2014-11-17T13:58:52.988</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\Images\wenjian1.png">
+      <PackagePath>Images\wenjian1.png</PackagePath>
+      <Modified>2014-11-18T10:09:55.728</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\Images\wenjian11.png">
+      <PackagePath>Images\wenjian11.png</PackagePath>
+      <Modified>2014-11-18T10:44:38.119</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\Images\wenjian2.png">
+      <PackagePath>Images\wenjian2.png</PackagePath>
+      <Modified>2014-11-18T10:09:55.732</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\Images\wenjian3.png">
+      <PackagePath>Images\wenjian3.png</PackagePath>
+      <Modified>2014-11-18T10:09:55.736</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\Images\wenjian4.png">
+      <PackagePath>Images\wenjian4.png</PackagePath>
+      <Modified>2014-11-18T10:09:55.723</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\test.mp3">
+      <PackagePath>test.mp3</PackagePath>
+      <Modified>2014-11-21T08:47:11.626</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-11-17T08:45:32.152</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2014-11-21T08:50:06.968</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\bin\Debug\ImagineCup.xr.xml">
+      <PackagePath>ImagineCup.xr.xml</PackagePath>
+      <Modified>2014-11-21T08:49:35.216</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#\ImagineCup\ImagineCup\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-11-21T08:49:09.044</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

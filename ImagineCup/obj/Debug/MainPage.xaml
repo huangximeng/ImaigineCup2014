@@ -1,0 +1,81 @@
+﻿<Page
+    x:Class="ImagineCup.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ImagineCup"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Margin="0,0,0,0" RenderTransformOrigin="0.373,0.513">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="43*"/>
+            <RowDefinition Height="5*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="145*"/>
+            <ColumnDefinition Width="538*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Row="0"  Grid.Column="1">
+            <Grid.Background>
+                <ImageBrush Stretch="Fill" ImageSource="Images/mainback2.png"/>
+            </Grid.Background>
+            <TextBlock x:Name="text"  FontSize="40" Foreground="#FFFB0F0F" Margin="209,313,601,295">
+        		<Run Text="hehe"/>
+            </TextBlock>
+            <TextBox Margin="143,118,36,538" Height="30"></TextBox>
+            <TextBox Margin="143,390,36,266" Height="30"></TextBox>
+            <TextBox Margin="143,253,36,403" Height="30"></TextBox>
+            <TextBox Margin="143,522,36,134" Height="30"></TextBox>
+            <TextBox Margin="143,646,36,10"  Height="30"></TextBox>
+        </Grid>
+        <Grid Background="#FF2B2828" Grid.Row="0"  Grid.Column="0">
+            <TextBlock FontSize="32" Margin="20,50,60,598" Height="40" >Sing My Song</TextBlock>
+            <TextBlock FontSize="30" Margin="42,198,168,452" >乐器</TextBlock>
+            <TextBlock x:ConnectionId='5' x:Name="gangqin" FontSize="27" Margin="62,247,168,403"                         >钢琴</TextBlock>
+            <TextBlock x:ConnectionId='6' x:Name="jita" FontSize="27" Margin="138,247,92,403"                      >吉他</TextBlock>
+            <TextBlock FontSize="30" Margin="42,298,168,342" >风格</TextBlock>
+            <TextBlock x:ConnectionId='7' x:Name="liuxing" FontSize="27" Margin="62,353,168,297"                         >流行</TextBlock>
+            <TextBlock x:ConnectionId='8' x:Name="minyao" FontSize="27" Margin="138,353,92,297"                        >民谣</TextBlock>
+            <TextBlock FontSize="30" Margin="42,450,190,188" >调式</TextBlock>
+            <TextBlock x:ConnectionId='9' x:Name="modeC" FontSize="27" Margin="52,505,220,145"                       >C</TextBlock>
+            <TextBlock x:ConnectionId='10' x:Name="modeD" FontSize="27" Margin="82,505,190,145"                       >D</TextBlock>
+            <TextBlock x:ConnectionId='11' x:Name="modeE" FontSize="27" Margin="112,505,160,145"                       >E</TextBlock>
+            <TextBlock x:ConnectionId='12' x:Name="modeF" FontSize="27" Margin="142,505,130,145"                       >F</TextBlock>
+            <TextBlock x:ConnectionId='13' x:Name="modeG" FontSize="27" Margin="172,505,100,145"                       >G</TextBlock>
+            <TextBlock x:ConnectionId='14' x:Name="modeA" FontSize="27" Margin="202,505,70,145"                       >A</TextBlock>
+            <TextBlock x:ConnectionId='15' x:Name="modeB" FontSize="27" Margin="232,505,40,145"                       >B</TextBlock>
+            <TextBlock FontSize="30" Margin="42,550,160,95" >节拍</TextBlock>
+            <TextBox Margin="52,598,168,58"></TextBox>
+            <TextBlock FontSize="35" Margin="132,590,130,55" >/</TextBlock>
+            <TextBox Margin="162,598,58,58"></TextBox>
+        </Grid>
+        <Grid Background="Black" Grid.Row="1"  Grid.ColumnSpan="2">
+            <Button x:ConnectionId='1' x:Name="backbutton" Style="{StaticResource NavigationBackButtonNormalStyle}"                          Margin="18,20,0,0" ></Button>
+            <Ellipse x:ConnectionId='2' x:Name="Play"                      Margin="1105,20,220,19">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="Images/play.png" Stretch="None"/>
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse x:ConnectionId='3' x:Name="Stop" Margin="1175,20,150,19"                      >
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="Images/stop.png" Stretch="None"/>
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse x:ConnectionId='4' x:Name="Reset" Margin="1245,20,80,19"                       >
+                <Ellipse.Fill>
+                    <ImageBrush Stretch="Fill" ImageSource="Images/reset.png"/>
+                </Ellipse.Fill>
+            </Ellipse>
+            <!--<StackPanel Margin="185,0,462,0" Orientation="Horizontal">
+                <ProgressBar x:Name="progress" Width="562" Maximum="1.0" Minimum="0" Foreground="LightGray" Margin="0,15"></ProgressBar>
+                <TextBlock x:Name="tbCurrentTime" Text="00:00:00" Margin="20,35"/>
+                <TextBlock Text="/" Margin="0,35" />
+                <TextBlock x:Name="tbTotalTime" Margin="10,35" Text="00:01:29" />
+            </StackPanel>-->
+            <MediaElement Height="61" VerticalAlignment="Top" AreTransportControlsEnabled="True" AutoPlay="False" Source="test.mp3" Margin="100,0,354,0" RenderTransformOrigin="0.5,0.5">
+            </MediaElement>
+        </Grid>
+    </Grid>
+</Page>
+
